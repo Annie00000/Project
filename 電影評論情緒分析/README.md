@@ -12,9 +12,9 @@
 2. word2vec + BiLSTM
 
 ## 結果 :
-(1) LSTM	:                  F1 score 為 0.7927，	Accuracy 為 0.7930， AUC 為 0.7933
-(2) LSTM + Early stopping :  F1 score 為 0.8381，	Accuracy 為 0.8378， AUC 為 0.8381
-(3) Bidirectional  LSTM : 	 F1 score 為 0.8429，	Accuracy 為 0.8424， AUC 為 0.8426
-(4) word2vec + BiLSTM	:      F1 score 為 0.8759，	Accuracy 為 0.8727， AUC 為 0.8726
+1. LSTM	:                F1 score 為 0.7927，	Accuracy 為 0.7930， AUC 為 0.7933
+2. LSTM + Early stopping :  F1 score 為 0.8381，	Accuracy 為 0.8378， AUC 為 0.8381
+3. Bidirectional  LSTM :    F1 score 為 0.8429，	Accuracy 為 0.8424， AUC 為 0.8426
+4. word2vec + BiLSTM	:     F1 score 為 0.8759，	Accuracy 為 0.8727， AUC 為 0.8726
 
 
