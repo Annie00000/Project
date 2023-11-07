@@ -11,6 +11,18 @@
 1. Bidirectional LSTM
 2. word2vec + BiLSTM
 
+## 方法 :
+1. 文字前清理：
+   移除html標記、標點符號、停用詞等，並進行詞幹還原。
+   將處理後的文本轉換成序列向量，再進行截斷或填充，以確保相同長度的輸入數據。
+2. 模型與訓練：
+   使用LSTM模型進行情感分類預測。
+   採用Dropout和Early stopping技術，以減少過度擬合的風險。
+4. 性能改進：
+   調整LSTM模型為雙向結構，使其能夠更好地理解文本的上下文。
+   使用預先訓練的word2vec詞嵌入，進而提升模型的性能。
+
+
 ## 結果 :
 1. LSTM	:                F1 score 為 0.7927，	Accuracy 為 0.7930， AUC 為 0.7933
 2. LSTM + Early stopping :  F1 score 為 0.8381，	Accuracy 為 0.8378， AUC 為 0.8381
